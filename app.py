@@ -3,8 +3,9 @@ import pandas as pd
 import pickle
 import plotly.express as px
 import sklearn
+
 MODEL_PATH = "best_Elastic_model.pkl"
-FEATURE_NAMES_PATH = "feature_info.pkl"
+FEATURE_NAMES_PATH = "feature_info (1).pkl"
 SCALER_PATH = "scaler.pkl"
 DATA_PATH = "X_train.csv"
 
