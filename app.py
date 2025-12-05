@@ -5,7 +5,7 @@ import plotly.express as px
 import sklearn
 
 MODEL_PATH = "best_Elastic_model.pkl"
-FEATURE_NAMES_PATH = "feature_info.pkl"
+FEATURE_NAMES_PATH = "feature_info (1).pkl"
 SCALER_PATH = "scaler.pkl"
 DATA_PATH = "X_train.csv"
 
@@ -66,7 +66,6 @@ def prepare_features(df, feature_names,train_medians,scaler):
     df_proc = df.copy()
     #Выбор только числовых колонок
     numeric_columns=feature_names["feature_names"]
-    st.write(numeric_columns)
     df_proc=df_proc[numeric_columns]
     #Предобработка аналогично EDA
     #Удаление полных дубликатов
