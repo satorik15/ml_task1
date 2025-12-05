@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import plotly.express as px
-
+import sklearn
 MODEL_PATH = "best_Elastic_model.pkl"
 FEATURE_NAMES_PATH = "feature_info.pkl"
 SCALER_PATH = "scaler.pkl"
